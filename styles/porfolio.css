@@ -63,8 +63,8 @@ nav {
   .header{
     background-repeat:no-repeat;
     background-color: var(--White-Color);
-    background-image: url('../images/header_bg.png');
-    background-position:bottom right;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-position:bottom right, top left;
   }
   .banner-greeting{
     font-size: 45px;
@@ -175,7 +175,7 @@ footer{
 }
 .social-link a{
   margin-right: 25px;}
-  
+
 .contact input[type="text"],.contact input[type="email"],textarea{
   display: block;
   margin-bottom: 25px;
